@@ -1,0 +1,24 @@
+{
+  "id": "crucible-quick-actions",
+  "title": "Crucible Quick-Actions",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "esmodules": [
+    "module.js"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "authors": [
+    {
+      "name": "Fantasy Computerworks",
+      "discord": "Wasp",
+      "email": "contact@fantasy-calendar.com",
+      "url": "fantasycomputer.works",
+      "flags": {}
+    }
+  ]
+}

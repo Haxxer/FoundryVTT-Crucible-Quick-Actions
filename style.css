@@ -1,0 +1,35 @@
+.cah-hud {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: calc(100% + 5px);
+}
+
+.cah-hud-control-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    max-width: 30px;
+    font-size: var(--font-size-28);
+    color: var(--color-text-light-3);
+    pointer-events: all;
+    overflow: hidden;
+
+    position: relative;
+    height: 30px;
+    max-height: 30px;
+    box-sizing: content-box;
+    flex: 0 0 30px;
+    margin: 4px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px var(--color-shadow-dark);
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.cah-hud-control-icon img {
+    border: 0;
+}
